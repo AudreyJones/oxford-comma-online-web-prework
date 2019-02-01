@@ -1,5 +1,8 @@
 require 'pry'
 def oxford_comma(array)
-  array.join(" and ")
+  array.join(", ")
+  if array.length > 2
+    array.push(" and ")
+  end
 end
 #binding.pry

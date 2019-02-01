@@ -2,4 +2,4 @@ require 'pry'
 def oxford_comma(array)
   array.join(",")
 end
-binding.pry
+#binding.pry
